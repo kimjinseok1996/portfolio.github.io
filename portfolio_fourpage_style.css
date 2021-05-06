@@ -65,6 +65,10 @@
             line-height: 50px;
             font-size: 20px;        
         }
+        #fourpage_bottompipe p{
+            text-shadow: 2px 2px 20px rgba(255,255,255, 0.2);
+            color: #282828;
+        }
         #fourpage_bottompipe p a{
             text-shadow: 2px 2px 20px rgba(255,255,255, 0.2);
             color: #282828;
