@@ -1,0 +1,171 @@
+@charset "utf-8";
+#thirdpage{
+            background: #454545;
+        }
+        #thirdpage #skill_title{
+            width: 400px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 6vh;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, -10%);
+            z-index: 9994;
+        }
+        #thirdpage #skill_title p{
+            color : #660000;
+            text-shadow: 0.1vw 0.5vh black;
+        }
+        #thirdpage_pipe{
+            position: absolute;
+            width: 50px;
+            height: 105%;
+            background: black;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%,-0%);
+            background: linear-gradient(to right, #212121,#353535, #212121);
+            box-shadow: 2px 8px 15px rgba(0,0,0,9);
+            z-index: 9993;
+        }
+        #pointerdiv{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px black;
+            top: 50%;
+            left: -25px;
+        }
+        #pointerdiv img{
+            width: 100%;
+            height: 100%;
+        }
+        #pointercusor, #pointer{
+            position: absolute;
+        }
+        #pointercusor{
+            z-index: 9991;
+        }
+        #thirdpage #pointercusor img{
+            transform: rotate(-90deg);
+            transition: 2s;
+        }
+        
+        .skillbox{
+            width: 45vw;
+            height: 25vh;
+            position: absolute;
+            z-index: 9990;
+        }
+        #skillbox1{
+            left: 2%;
+            top: 25%;
+        }
+        #skillbox2{
+            left: 2%;
+            top: 60%;
+        }
+        #skillbox3{
+            right: -1%;
+            top: 25%;
+        }
+        #skillbox4{
+            right: -1%;
+            top: 60%;
+        }
+        .skillbox .skillboxlogobox{
+            float: left;
+            position: relative;
+            width: 12vw;
+            height: 100%;
+            background: #282828;
+            border-radius: 1vw;
+            box-shadow: 3px 3px 5px rgba(0,0,0,9);
+        }
+        .skillbox .skillboxtopni, .skillbox .skillboxlogo{
+            position: absolute;
+        }
+        .skillbox .skillboxtopni{
+            width: 10vw;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .skillbox .skillboxlogo{
+            width: 6vw;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .skillbox .skillboxtopni img{
+            width: 100%;
+            height: 100%;
+        }
+        .skillbox .skillboxlogo img{
+            width: 100%;
+            height: 100%;
+        }
+        .skillboxbarbox{
+            width: 65%;
+            height: 100%;
+            float: left;
+            margin-left: 2vw;
+        }
+        .skillboxbarbox_bar{
+            width: 28vw;
+            height: 15vh;
+            background: #282828;
+            margin-top: 8%;
+            border-radius: 1vw;
+            box-shadow: 3px 3px 5px rgba(0,0,0,9);
+            position: relative;
+        }
+        .skillboxbarbox_bar_bar{
+            position: absolute;
+            top: 3.6vh;
+            left: 1.3vw;
+            width: 23vw;
+            height:6vh;
+            border-radius: 1vw;
+            border: 0.5vw solid #151515;
+            padding: 0px 1.5% 0px 1.5%;
+        }
+        .skillboxbarbox_bar_bar_gage{
+            width: 9%;
+            height: 90%;
+/*            background: #00d423;*/
+            border-radius: 0.3vw;
+            margin: 0.5%;
+            float: left;
+        }
+        .skillboxbarbox_bar_bolt{
+            position: absolute;
+            width: 4%;
+            border-radius: 50%;
+        }
+        #skillboxbarbox_bar_bolt1{
+            top: 5%;
+            left: 1%;
+        }
+        #skillboxbarbox_bar_bolt2{
+            top: 5%;
+            right: 1%;
+        }
+        #skillboxbarbox_bar_bolt3{
+            bottom: -1%;
+            left: 1%;
+        }
+        #skillboxbarbox_bar_bolt4{
+            bottom: -1%;
+            right: 1%;
+        }
+        .skillboxbarbox_bar_bolt img{
+            width: 100%;
+            height: 100%;
+        }
+        .skillboxlogobox .skillboxbarbox_bar_bolt{
+            width: 10%;
+        }

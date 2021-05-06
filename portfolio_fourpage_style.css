@@ -1,0 +1,452 @@
+@charset "utf-8";
+#fourpage{
+            background: #393939;
+        }
+        #fourpage #github_title{
+            width: 400px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 6vh;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, -10%);
+            z-index: 9994;
+        }
+        #fourpage #github_title p{
+            color : #660000;
+            text-shadow: 0.1vw 0.3vh black;;
+        }
+        #fourpage_pipe{
+            position: absolute;
+            width: 50px;
+            height: 105%;
+            background: black;
+            top: -9%;
+            left: 50%;
+            transform: translate(-50%,-0%);
+            background: linear-gradient(to right, #212121,#353535, #212121);
+            box-shadow: 2px 8px 15px rgba(0,0,0,9);
+            z-index: 9993;
+        }
+        #pointerdiv{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px black;
+            top: 50%;
+            left: -25px;
+        }
+        #pointerdiv img{
+            width: 100%;
+            height: 100%;
+        }
+        #pointercusor, #pointer{
+            position: absolute;
+        }
+        #pointercusor{
+            z-index: 9991;
+        }
+        #fourpage #pointercusor img{
+            transform: rotate(-90deg);
+            transition: 2s;
+        }
+        #fourpage_bottompipe{
+            position: absolute;
+            background: linear-gradient(#212121,#353535, #212121);
+            width: 100%;
+            height: 50px;
+            box-shadow: 2px 8px 15px rgba(0,0,0,9);
+            z-index: 9997;
+            bottom: 3%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;        
+        }
+        #fourpage_bottompipe p a{
+            text-shadow: 2px 2px 20px rgba(255,255,255, 0.2);
+            color: #282828;
+        }
+        #fourpage_bottompipe p a:hover{
+            color: #252525;
+        }
+        #fourpage_topbtn{
+            text-align: center;
+            width: 90px;
+            height: 120px;
+            background: #181818;
+            position: absolute;
+            bottom: 13vh;
+            right: 30px;
+            color: #454545;
+            text-shadow: 2px 2px 10px rgba(255,255,255, 0.2);
+            border: 5px solid #999400;
+            border-radius: 10px;
+            box-shadow: 0.2vw 0.5vh black;;
+        }
+        #topbtn_plate{
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,0);
+            width: 55%;
+            height: 63%;
+            border-radius: 5px;
+            background: #050505;
+            box-shadow: 0.1vw 0.3vh black;
+        }
+        #fourpage #fourpage_topbtn .bolt{
+            position: absolute;
+            width: 14%;
+        }
+        #fourpage .bolt img{
+            width: 100%;
+            height: 100%;
+        }
+        #fourpage #fourpage_topbtn #bolt1{
+            top: -3%;
+            left: 3%;
+        }
+        #fourpage #fourpage_topbtn #bolt2{
+            top: -3%;
+            right: 3%;
+        }
+        #fourpage #fourpage_topbtn #bolt3{
+            bottom: -5%;
+            right: 3%;
+        }
+        #fourpage #fourpage_topbtn #bolt4{
+            bottom: -5%;
+            left: 3%;
+        }
+        #fourpagetopbtn{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 35px;
+            height: 35px;
+            background: #660000;
+            border-radius: 50%;
+            box-shadow: 0.1px 3px black;
+            cursor: pointer;
+        }
+        #fourpagetopbtn:hover{
+            background: red;
+        }
+/*        ----------------------engine---------------------------*/
+        #engine{
+            position: absolute;
+            width: 320px;
+            height: 90px;
+            left: 100px;
+            bottom: 380px;
+            background: #333;
+            border-radius: 20px;
+            z-index: 9990;
+        }
+        #enginebody{
+            position: absolute;
+            width: 180%;
+            top: -105px;
+            left: -20px;
+        }
+        #enginepistonebody{
+            position: absolute;
+            width: 320px;
+            height: 90px;
+            background: #333;
+            border-radius: 20px;
+            box-shadow: 1px 2px rgba(0,0,0,0.3);
+        }
+        .pistone{
+            position: absolute;
+            width: 101px;
+            height: 158px;
+            left: 10px;
+            bottom: 0;
+            z-index: 9991;
+        }
+        #pistone2{
+            left: 80px;
+        }
+        #pistone3{
+            left: 150px;
+        }
+        #pistone4{
+            left: 220px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .pistonetop, .pistonemiddle, .pistonebottom{
+            position: absolute;
+        }
+        .pistonetop{
+            width: 50%;
+            left: 20%;
+            z-index: 9990;
+        }
+        #pistone1 .pistonetop img, #pistone3 .pistonetop img{
+            animation: pistonetopani1 linear 0.6s infinite;
+        }
+        @keyframes pistonetopani1{
+            0%{
+                margin-top: 75%;
+            }
+            50%{
+                margin-top: 0%;
+            }
+            100%{
+                margin-top: 75%;
+            }
+        }
+        #pistone2 .pistonetop img, #pistone4 .pistonetop img{
+            animation: pistonetopani2 linear 0.6s infinite;
+        }
+        @keyframes pistonetopani2{
+            0%{
+                margin-top: 0;
+            }
+            50%{
+                margin-top: 75%;
+            }
+            100%{
+                margin-top: 0;
+            }
+        }
+        .pistonemiddle{
+            width: 80%;
+        }
+        #pistone1 .pistonemiddle img, #pistone3 .pistonemiddle img{
+            animation: pistonemiddleani1 linear 0.6s infinite;
+        }
+        @keyframes pistonemiddleani1{
+            0%{
+                transform: rotate(0deg);
+                margin-top: 85%;
+                margin-left: 1.4%;
+            }
+            25%{
+                transform: rotate(15deg);
+                margin-top: 53%;
+                margin-left: -16%;
+            }
+            50%{
+                transform: rotate(0deg);
+                margin-top: 23.5%;
+                margin-left: 11%;
+            }
+            75%{
+                transform: rotate(-15deg);
+                margin-top: 65%;
+                margin-left: 25%;
+            }
+            100%{
+                transform: rotate(0deg);
+                margin-top: 85%;
+                margin-left: 1.4%;
+            }
+        }
+        #pistone2 .pistonemiddle img, #pistone4 .pistonemiddle img{
+            animation: pistonemiddleani2 linear 0.6s infinite;
+        }
+        @keyframes pistonemiddleani2{
+            0%{
+                transform: rotate(0deg);
+                margin-top: 23.5%;
+                margin-left: 11%;
+            }
+            25%{
+                transform: rotate(-15deg);
+                margin-top: 65%;
+                margin-left: 25%;
+            }
+            50%{
+                transform: rotate(0deg);
+                margin-top: 85%;
+                margin-left: 1.4%;
+            }
+            75%{
+                transform: rotate(15deg);
+                margin-top: 53%;
+                margin-left: -16%;
+            }
+            100%{
+                transform: rotate(0deg);
+                margin-top: 23.5%;
+                margin-left: 11%;
+            }
+        }
+        .pistonebottom{
+            width: 65%;
+            bottom: 2%;
+            left: 12%;
+        }
+        #pistone1 .pistonebottom img, #pistone3 .pistonebottom img{
+            animation: pistonebottomani1 linear 0.6s infinite;
+        }
+        @keyframes pistonebottomani1{
+            0%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(540deg);
+            }
+        }
+        #pistone2 .pistonebottom img, #pistone4 .pistonebottom img{
+            animation: pistonebottomani2 linear 0.6s infinite;
+        }
+        @keyframes pistonebottomani2{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        #engine_belt{
+            position: absolute;
+            width: 100%;
+            height: 90px;
+            top: 110px;
+        }
+        #enginetopni1, #enginetopni2{
+            position: absolute;
+        }
+        #enginetopni1 img, #enginetopni2 img{
+            animation: enginetopniani infinite 1.5s linear;
+        }
+        @keyframes enginetopniani{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        #engine #enginetopni1{
+            width: 90px;
+            left: 0;
+        }
+        #enginetopni1_back{
+            position: absolute;
+            top: 5px;
+            width: 80px;
+            height: 80px;
+            background: black;
+            border-radius: 50%;
+        }
+        #engine #enginetopni2{
+            width: 55px;
+            right: 0;
+            bottom: 5px;
+        }
+        #enginetopni2_back{
+            position: absolute;
+            top: 25px;
+            right: 2px;
+            width: 45px;
+            height: 45px;
+            background: black;
+            border-radius: 50%;
+        }
+        #engine_topbelt, #engine_bottombelt{
+            position: absolute;
+            width: 81%;
+            height: 10px;
+            background: black;
+        }
+        #engine_topbelt{
+            transform: rotate(4deg);
+            left: 40px;
+            top: 15px;
+        }
+        #engine_bottombelt{
+            transform: rotate(-3deg);
+            left: 40px;
+            bottom: 12px;
+        }
+        #engine_geerbox{
+            position: absolute;
+            width: 300px;
+            height: 70px;
+            background: #333;
+            border-radius: 20px;
+            bottom: -200px;
+            left: 35px;
+            box-shadow: 1px 2px rgba(0,0,0,0.3);
+            z-index: 9991;
+        }
+        #geer1btnbox, #geer2btnbox, #geer3btnbox{
+            width: 50px;
+            height: 100%;
+            float: left;
+            margin-left: 12%;
+            text-align: center;
+            text-shadow: 2px 2px 20px rgba(255,255,255, 0.2);
+            color: #252525;
+        }
+        .geerbtn{
+            width: 50%;
+            height: 40%;
+            background: #660000;
+            margin-left: 25%;
+            box-shadow: 1px 2px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+        .geerbtn:hover{
+            background: red;
+        }
+        .geerbtn.geeron{
+            background: red;
+        }
+        #fourpage_tv{
+            position: absolute;
+            z-index: 9990;
+            top: 25vh;
+            right:6vw;
+            width: 36vw;
+            height: 40vh;
+            background: #292929;
+            border-radius: 0.7vw;
+            box-shadow: 0.3vw 0.5vh black;
+        }
+        #fourpage_screen{
+            position: absolute;
+            width: 95%;
+            height: 90%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: black;
+        }
+        #fourpage_screennoise{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background: url(noise.gif) no-repeat center;
+            background-size: cover;
+            opacity: 0.7;
+        }
+        #fourpage_screenon{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background: white;
+            transition: 1.5s;
+            opacity: 0;
+        }
+        #fourpage_screenon p a{
+            font-size: 20px;
+            color: black;
+            margin-left: 1vw;
+        }
+        #screentext{
+            margin: 6vh;
+        }

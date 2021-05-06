@@ -1,0 +1,466 @@
+@charset "utf-8";
+#secondpage{
+            background: #2e2e2e;
+        }
+        #secondpage #about_title{
+            width: 400px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 6vh;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%, -10%);
+            z-index: 9994;
+        }
+        #secondpage #about_title p{
+            color : #660000;
+            text-shadow: 0.1vw 0.5vh black;
+        }
+        #secondpage_career_title{
+            font-size: 4vh;
+            width: 150px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            position: absolute;
+            left: 6vw;
+            top: 23vh;
+            z-index: 9994;
+        }
+        #secondpage_career_title p{
+            color : #660000;
+            text-shadow: 0.1vw 0.3vh black;
+        }
+        #secondpage_certification_title{
+            font-size: 4vh;
+            width: 150px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            position: absolute;
+            right: 15vw;
+            top: 23vh;
+            z-index: 9994;
+        }
+        #secondpage_certification_title p{
+            color : #660000;
+            text-shadow: 0.1vw 0.3vh black;
+        }
+        #secondpage_pipe{
+            position: absolute;
+            width: 50px;
+            height: 105%;
+            background: black;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%,-0%);
+            background: linear-gradient(to right, #212121,#353535, #212121);
+            box-shadow: 2px 8px 15px rgba(0,0,0,9);
+            z-index: 9993;
+        }
+        
+        /*        ---------belt1------------------------------------------------*/
+        #secondpage_belt1{
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 25vw;
+            height: 10vh;
+            z-index: 9994;
+        }
+        #secondpage_belt1:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 4vw;
+            height: 100%;
+            background: linear-gradient(to right, transparent 50%, black 50%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #secondpage_belt1 .secondpage_belttopni{
+            position: absolute;
+            z-index: 9996;
+            width: 20%;
+            top: 0;
+        }
+        #secondpage_belt1 #secondpage_belttopni1{
+            left: -50px;
+        }
+        #secondpage_belt1 #secondpage_belttopni2{
+            right: 0px;
+        }
+        #secondpage_belt1 .secondpage_belttopni img{
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+        }
+        #secondpage_belt1 .secondpage_belttopni img.belton{
+            transform: rotate(180deg);
+        }
+        #secondpage_belt1 .belt{
+            position: absolute;
+            z-index: 9995;
+            width: 45vw; 
+            transition: 2s;
+        }
+        #secondpage #beltdiv{
+            position: relative;
+            width:93%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #secondpage .belt img{
+            width: 100%;
+            height: 100%;
+        }
+        #secondpage #topbelt{
+            top: -1.1vh;
+            transform: rotateX(180deg);
+            left: -20vw;
+        }
+        #secondpage #topbelt.belton{
+            left: 0;
+        }
+        #secondpage #bottombelt{
+            bottom: -1vh;
+            right: -20vw;
+        }
+        #secondpage #bottombelt.belton{
+            right: 0;
+        }
+        .secondpage_career{
+            position: absolute;
+            top: -4.5vh;
+            left: -22vw;
+            font-size: 2.5vh;
+            transition: 2s;
+        }
+        .secondpage_career.belton{
+            left: 1vw;
+        }
+        
+        
+        /*        ---------belt2------------------------------------------------*/
+        #secondpage_belt2{
+            position: absolute;
+            left: 0;
+            top: 75%;
+            width: 25vw;
+            height: 10vh;
+            z-index: 9994;
+        }
+        #secondpage_belt2:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 4vw;
+            height: 100%;
+            background: linear-gradient(to right, transparent 50%, black 50%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #secondpage_belt2 .secondpage_belttopni{
+            position: absolute;
+            z-index: 9996;
+            width: 20%;
+            top: 0;
+        }
+        #secondpage_belt2 #secondpage_belttopni1{
+            left: -50px;
+        }
+        #secondpage_belt2 #secondpage_belttopni2{
+            right: 0px;
+        }
+        #secondpage_belt2 .secondpage_belttopni img{
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+        }
+        #secondpage_belt2 .secondpage_belttopni img.belton{
+            transform: rotate(180deg);
+        }
+        #secondpage_belt2 .belt{
+            position: absolute;
+            z-index: 9995;
+            width: 45vw; 
+            transition: 2s;
+        }
+/*        ---------belt3------------------------------------------------*/
+        #secondpage_belt3{
+            position: absolute;
+            right: 0;
+            top: 40%;
+            width: 25vw;
+            height: 10vh;
+            z-index: 9994;
+        }
+        #secondpage_belt3:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 4vw;
+            height: 100%;
+            background: linear-gradient(to left, transparent 50%, black 50%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #secondpage_belt3 .secondpage_belttopni{
+            position: absolute;
+            z-index: 9996;
+            width: 20%;
+            top: 0;
+        }
+        #secondpage_belt3 #secondpage_belttopni1{
+            left: 0px;
+        }
+        #secondpage_belt3 #secondpage_belttopni2{
+            right: -50px;
+        }
+        #secondpage_belt3 .secondpage_belttopni img{
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+        }
+        #secondpage_belt3 .secondpage_belttopni img.belton{
+            transform: rotate(-180deg);
+        }
+        #secondpage_belt3 .belt{
+            position: absolute;
+            z-index: 9995;
+            width: 45vw; 
+            transition: 2s;
+        }
+        #secondpage_belt3 #beltdiv{
+            position: relative;
+            width:95%;
+            height: 100%;
+            overflow: hidden;
+            left: 2vw;
+        }
+        #secondpage_belt3 .belt img{
+            width: 100%;
+            height: 100%;
+        }
+        #secondpage_belt3 #topbelt{
+            top: -1.1vh;
+            transform: rotateX(180deg);
+            left: 0vw;
+        }
+        #secondpage_belt3 #topbelt.belton{
+            left: -20vw;
+        }
+        #secondpage_belt3 #bottombelt{
+            bottom: -1vh;
+            right: 0vw;
+        }
+        #secondpage_belt3 #bottombelt.belton{
+            right: -20vw;
+        }
+        .secondpage_certification{
+            position: absolute;
+            top: -4.5vh;
+            right: -22vw;
+            font-size: 2.5vh;
+            transition: 2s;
+        }
+        .secondpage_certification.belton{
+            right: 2vw;
+        }
+        /*        ---------belt4------------------------------------------------*/
+        #secondpage_belt4{
+            position: absolute;
+            right: 0;
+            top: 60%;
+            width: 25vw;
+            height: 10vh;
+            z-index: 9994;
+        }
+        #secondpage_belt4:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 4vw;
+            height: 100%;
+            background: linear-gradient(to left, transparent 50%, black 50%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #secondpage_belt4 .secondpage_belttopni{
+            position: absolute;
+            z-index: 9996;
+            width: 20%;
+            top: 0;
+        }
+        #secondpage_belt4 #secondpage_belttopni1{
+            left: 0px;
+        }
+        #secondpage_belt4 #secondpage_belttopni2{
+            right: -50px;
+        }
+        #secondpage_belt4 .secondpage_belttopni img{
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+        }
+        #secondpage_belt4 .secondpage_belttopni img.belton{
+            transform: rotate(-180deg);
+        }
+        #secondpage_belt4 .belt{
+            position: absolute;
+            z-index: 9995;
+            width: 45vw; 
+            transition: 2s;
+        }
+        #secondpage_belt4 #beltdiv{
+            position: relative;
+            width:95%;
+            height: 100%;
+            overflow: hidden;
+            left: 2vw;
+        }
+        #secondpage_belt4 .belt img{
+            width: 100%;
+            height: 100%;
+        }
+        #secondpage_belt4 #topbelt{
+            top: -1.1vh;
+            transform: rotateX(180deg);
+            left: 0vw;
+        }
+        #secondpage_belt4 #topbelt.belton{
+            left: -20vw;
+        }
+        #secondpage_belt4 #bottombelt{
+            bottom: -1vh;
+            right: 0vw;
+        }
+        #secondpage_belt4 #bottombelt.belton{
+            right: -20vw;
+        }
+        .secondpage_certification{
+            position: absolute;
+            top: -4.5vh;
+            right: -22vw;
+            font-size: 2.5vh;
+            transition: 2s;
+        }
+        .secondpage_certification.belton{
+            right: 2vw;
+        }
+        /*        ---------belt5------------------------------------------------*/
+        #secondpage_belt5{
+            position: absolute;
+            right: 0;
+            top: 80%;
+            width: 25vw;
+            height: 10vh;
+            z-index: 9994;
+        }
+        #secondpage_belt5:after{
+            content: "";
+            clear: both;
+            display: block;
+            width: 4vw;
+            height: 100%;
+            background: linear-gradient(to left, transparent 50%, black 50%);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #secondpage_belt5 .secondpage_belttopni{
+            position: absolute;
+            z-index: 9996;
+            width: 20%;
+            top: 0;
+        }
+        #secondpage_belt5 #secondpage_belttopni1{
+            left: 0px;
+        }
+        #secondpage_belt5 #secondpage_belttopni2{
+            right: -50px;
+        }
+        #secondpage_belt5 .secondpage_belttopni img{
+            width: 100%;
+            height: 100%;
+            transition: 2s;
+        }
+        #secondpage_belt5 .secondpage_belttopni img.belton{
+            transform: rotate(-180deg);
+        }
+        #secondpage_belt5 .belt{
+            position: absolute;
+            z-index: 9995;
+            width: 45vw; 
+            transition: 2s;
+        }
+        #secondpage_belt5 #beltdiv{
+            position: relative;
+            width:95%;
+            height: 100%;
+            overflow: hidden;
+            left: 2vw;
+        }
+        #secondpage_belt5 .belt img{
+            width: 100%;
+            height: 100%;
+        }
+        #secondpage_belt5 #topbelt{
+            top: -1.1vh;
+            transform: rotateX(180deg);
+            left: 0vw;
+        }
+        #secondpage_belt5 #topbelt.belton{
+            left: -20vw;
+        }
+        #secondpage_belt5 #bottombelt{
+            bottom: -1vh;
+            right: 0vw;
+        }
+        #secondpage_belt5 #bottombelt.belton{
+            right: -20vw;
+        }
+        .secondpage_certification{
+            position: absolute;
+            top: -4.5vh;
+            right: -22vw;
+            font-size: 2.5vh;
+            transition: 2s;
+        }
+        .secondpage_certification.belton{
+            right: 2vw;
+        }
+        #pointerdiv{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px black;
+            top: 50%;
+            left: -25px;
+        }
+        #pointerdiv img{
+            width: 100%;
+            height: 100%;
+        }
+        #pointercusor, #pointer{
+            position: absolute;
+        }
+        #pointercusor{
+            z-index: 9991;
+        }
+        #secondpage #pointercusor img{
+            transform: rotate(-90deg);
+            transition: 2s;
+        }
