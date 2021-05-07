@@ -240,6 +240,10 @@
             width: 20%;
             height: 100%;
             clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
+            -webkit-clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
+            -o-clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
+            -ms-clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
+             -moz-clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
         }
         #menuleftbox2{
             top: 9.9%;
@@ -260,6 +264,10 @@
             width: 20%;
             height: 100%;
             clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+            -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+            -o-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+            -ms-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+            -moz-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
         }
         #menuleftbox4{
             top: 30%;
