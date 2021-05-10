@@ -157,7 +157,8 @@ $(function(){
                 }
             });
             $(".menurightbox p a").on("click",function(){
-                menunum=1;
+                        if(menunum == 2){
+                          menunum=1;
                         //$("#mainbtn").css({"display":"none"});
                         $("body").css({"overflow-y":"visible"});
                         $("#mainpage").css({"background":"#3b3b3b"});
@@ -179,7 +180,8 @@ $(function(){
                                 $("#mainbtn").css({"display":"block"});
                                 menunum=0;
                             },1600);
-                        },1650); 
+                        },1650);
+                        }
                     });
     
             $("#menurightbox2 p a").hover(function(){
